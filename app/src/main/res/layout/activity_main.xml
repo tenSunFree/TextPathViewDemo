@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:gravity="center"
+    tools:context="com.example.administrator.textpathviewdemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <yanzhikai.textpath.SyncTextPathView
+                    android:layout_marginBottom="1dp"
+                    android:id="@+id/laceSyncTextPathView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:duration="5000"
+                    app:paintStrokeColor="@android:color/holo_blue_light"
+                    app:showPainter="true"
+                    app:text="❀"
+                    app:textInCenter="true"
+                    app:textSize="43dp"
+                    app:textStrokeColor="#e0d28f1b"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <yanzhikai.textpath.SyncTextPathView
+                    android:layout_marginBottom="6dp"
+                    android:id="@+id/laceSyncTextPathView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:duration="5000"
+                    app:paintStrokeColor="@android:color/holo_blue_light"
+                    app:showPainter="true"
+                    app:text="❊"
+                    app:textInCenter="true"
+                    app:textSize="38dp"
+                    app:textStrokeColor="#4e7ba7"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <yanzhikai.textpath.SyncTextPathView
+                    android:layout_marginBottom="6dp"
+                    android:id="@+id/laceSyncTextPathView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:duration="5000"
+                    app:paintStrokeColor="@android:color/holo_blue_light"
+                    app:showPainter="true"
+                    app:text="❊"
+                    app:textInCenter="true"
+                    app:textSize="38dp"
+                    app:textStrokeColor="#4e7ba7"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <yanzhikai.textpath.SyncTextPathView
+                    android:layout_marginBottom="6dp"
+                    android:id="@+id/laceSyncTextPathView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:duration="5000"
+                    app:paintStrokeColor="@android:color/holo_blue_light"
+                    app:showPainter="true"
+                    app:text="❊"
+                    app:textInCenter="true"
+                    app:textSize="38dp"
+                    app:textStrokeColor="#4e7ba7"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <yanzhikai.textpath.SyncTextPathView
+                    android:layout_marginBottom="6dp"
+                    android:id="@+id/laceSyncTextPathView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:duration="5000"
+                    app:paintStrokeColor="@android:color/holo_blue_light"
+                    app:showPainter="true"
+                    app:text="❊"
+                    app:textInCenter="true"
+                    app:textSize="38dp"
+                    app:textStrokeColor="#4e7ba7"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <yanzhikai.textpath.SyncTextPathView
+                    android:layout_marginBottom="1dp"
+                    android:id="@+id/laceSyncTextPathView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:duration="5000"
+                    app:paintStrokeColor="@android:color/holo_blue_light"
+                    app:showPainter="true"
+                    app:text="❀"
+                    app:textInCenter="true"
+                    app:textSize="43dp"
+                    app:textStrokeColor="#e0d28f1b"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <yanzhikai.textpath.SyncTextPathView
+                        android:layout_marginBottom="6dp"
+                        android:id="@+id/laceSyncTextPathView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:duration="5000"
+                        app:paintStrokeColor="@android:color/holo_blue_light"
+                        app:showPainter="true"
+                        app:text="❊"
+                        app:textInCenter="true"
+                        app:textSize="38dp"
+                        app:textStrokeColor="#4e7ba7"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <yanzhikai.textpath.SyncTextPathView
+                        android:layout_marginBottom="6dp"
+                        android:id="@+id/laceSyncTextPathView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:duration="5000"
+                        app:paintStrokeColor="@android:color/holo_blue_light"
+                        app:showPainter="true"
+                        app:text="❊"
+                        app:textInCenter="true"
+                        app:textSize="38dp"
+                        app:textStrokeColor="#4e7ba7"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="100dp">
+
+                <yanzhikai.textpath.SyncTextPathView
+                    android:id="@+id/laceSyncTextPathView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:duration="5000"
+                    app:paintStrokeColor="#d28f1b"
+                    app:showPainter="true"
+                    app:text="Welcome"
+                    app:textInCenter="true"
+                    app:textSize="35dp"
+                    app:textStrokeColor="#d28f1b"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <yanzhikai.textpath.SyncTextPathView
+                        android:layout_marginBottom="6dp"
+                        android:id="@+id/laceSyncTextPathView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:duration="5000"
+                        app:paintStrokeColor="@android:color/holo_blue_light"
+                        app:showPainter="true"
+                        app:text="❊"
+                        app:textInCenter="true"
+                        app:textSize="38dp"
+                        app:textStrokeColor="#4e7ba7"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <yanzhikai.textpath.SyncTextPathView
+                        android:layout_marginBottom="6dp"
+                        android:id="@+id/laceSyncTextPathView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:duration="5000"
+                        app:paintStrokeColor="@android:color/holo_blue_light"
+                        app:showPainter="true"
+                        app:text="❊"
+                        app:textInCenter="true"
+                        app:textSize="38dp"
+                        app:textStrokeColor="#4e7ba7"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <yanzhikai.textpath.SyncTextPathView
+                    android:layout_marginBottom="1dp"
+                    android:id="@+id/laceSyncTextPathView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:duration="5000"
+                    app:paintStrokeColor="@android:color/holo_blue_light"
+                    app:showPainter="true"
+                    app:text="❀"
+                    app:textInCenter="true"
+                    app:textSize="43dp"
+                    app:textStrokeColor="#e0d28f1b"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <yanzhikai.textpath.SyncTextPathView
+                    android:layout_marginBottom="6dp"
+                    android:id="@+id/laceSyncTextPathView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:duration="5000"
+                    app:paintStrokeColor="@android:color/holo_blue_light"
+                    app:showPainter="true"
+                    app:text="❊"
+                    app:textInCenter="true"
+                    app:textSize="38dp"
+                    app:textStrokeColor="#4e7ba7"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <yanzhikai.textpath.SyncTextPathView
+                    android:layout_marginBottom="6dp"
+                    android:id="@+id/laceSyncTextPathView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:duration="5000"
+                    app:paintStrokeColor="@android:color/holo_blue_light"
+                    app:showPainter="true"
+                    app:text="❊"
+                    app:textInCenter="true"
+                    app:textSize="38dp"
+                    app:textStrokeColor="#4e7ba7"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <yanzhikai.textpath.SyncTextPathView
+                    android:layout_marginBottom="6dp"
+                    android:id="@+id/laceSyncTextPathView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:duration="5000"
+                    app:paintStrokeColor="@android:color/holo_blue_light"
+                    app:showPainter="true"
+                    app:text="❊"
+                    app:textInCenter="true"
+                    app:textSize="38dp"
+                    app:textStrokeColor="#4e7ba7"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <yanzhikai.textpath.SyncTextPathView
+                    android:layout_marginBottom="6dp"
+                    android:id="@+id/laceSyncTextPathView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:duration="5000"
+                    app:paintStrokeColor="@android:color/holo_blue_light"
+                    app:showPainter="true"
+                    app:text="❊"
+                    app:textInCenter="true"
+                    app:textSize="38dp"
+                    app:textStrokeColor="#4e7ba7"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <yanzhikai.textpath.SyncTextPathView
+                    android:layout_marginBottom="1dp"
+                    android:id="@+id/laceSyncTextPathView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:duration="5000"
+                    app:paintStrokeColor="@android:color/holo_blue_light"
+                    app:showPainter="true"
+                    app:text="❀"
+                    app:textInCenter="true"
+                    app:textSize="43dp"
+                    app:textStrokeColor="#e0d28f1b"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
